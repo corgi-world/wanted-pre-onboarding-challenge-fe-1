@@ -1,5 +1,6 @@
 import React from "react";
+import DefaultRouter from "./router/DefaultRouter";
 
 export default function App() {
-  return <div>hello</div>;
+  return <DefaultRouter />;
 }
