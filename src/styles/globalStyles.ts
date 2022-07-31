@@ -8,6 +8,9 @@ const GlobalStyles = createGlobalStyle`
     outline:none;
     border:none;
   }
+  body {
+    background-color: #fafafa;
+  }
   a {
     text-decoration: none;
     color: inherit;
