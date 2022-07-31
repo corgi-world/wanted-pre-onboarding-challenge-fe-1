@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 import { isLoggedInAtom } from "../store/atom";
-import Login from "../pages/Login";
+import Login from "../pages/login";
 import Todos from "../pages/todos";
 
 const ROUTE_PATH_LOGIN = "/login";
